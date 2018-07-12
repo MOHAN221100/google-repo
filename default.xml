@@ -1,4 +1,3 @@
-<? xml version+"1.0" encoding="UTF-8" ?>
 <manifest>
   <remote name=” < google-repo/manifest >” fetch= “<url of repository in which manifest is added>” />
   <default revision =”refs/heads/master” remote= ”<google-repo/manifest>” sync-j=”4” />
