@@ -1,5 +1,5 @@
 <manifest>
-<remote name=” < google-repo/manifest >” fetch= “<url of repository in which manifest is added>” />
+<remote name=” < google-repo/manifest >” fetch= “<https://github.com/MOHAN221100/google-repo.git>” />
 <default revision =”refs/heads/master” remote= ”<google-repo/manifest>” sync-j=”4” />
 <project name=" src_main_com_nxp_radiomiddleware_ syscontrolcofigman " remote=" google-repo/manifest" path=" system control and configuration component "/>
 <project name=" src_test_com_nxp_radiomiddleware_syscontrolconfigman  " remote="google-repo/manifest " path=“system control and configuration component"/>
