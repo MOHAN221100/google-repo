@@ -1,0 +1,15 @@
+<? xml version+"1.0" encoding="UTF-8" ?>
+<manifest>
+  <remote name=” < google-repo/manifest >” fetch= “<url of repository in which manifest is added>” />
+   <default revision =”refs/heads/master” remote= ”<google-repo/manifest>” sync-j=”4” />
+<project name=" src_main_com_nxp_radiomiddleware_ syscontrolcofigman " remote=" google-repo/manifest" path=" system control and configuration component "/>
+<project name=" src_test_com_nxp_radiomiddleware_syscontrolconfigman  " remote="google-repo/manifest " path=“system control and configuration component"/>
+<project name=" src_main_com_nxp_radiomiddleware_scosal" remote="google-repo/manifest" path=“scosal"/>
+<project name=" src_test_com_nxp_radiomiddleware_scosal" remote="google-repo/manifest " path=“scosal"/>
+<project name=" src_main_com_nxp_radiomiddleware_genericosal" remote=" google-repo/manifest" path=“genericosal"/>
+<project name=" src_test_com_nxp_radiomiddleware_genericosal" remote=" google-repo/manifest " path=“genericosal"/>
+<project name=" src_main_com_nxp_radiomiddleware_loggingosal " remote=" google-repo/manifest" path=“loggingosal"/>
+<project name=" src_test_com_nxp_radiomiddleware_loggingosal " remote=" google-repo/manifest" path=“loggingosal"/>
+<project name=" src_main_com_nxp_radiomiddleware_loggingcomponent=" google-repo/manifest " path=“loggingcomponent"/>
+<project name=" src_test_com_nxp_radiomiddleware_loggingcomponent " remote=“ google-repo/manifest" path=“loggingcomponent"/>
+</manifest>
